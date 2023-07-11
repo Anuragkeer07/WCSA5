@@ -13,7 +13,7 @@ public class FacebookLogin {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("email")).sendKeys("anuragkeer2@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("Anurag@02");
+		driver.findElement(By.id("pass")).sendKeys("An2");
 		Thread.sleep(3000);
 		driver.findElement(By.name("login")).click();
 		
